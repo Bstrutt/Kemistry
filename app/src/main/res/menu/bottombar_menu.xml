@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/conversion"
+        android:icon="@drawable/m2ft"
+        android:title="@string/conversion"
+
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/steam"
+        android:icon="@drawable/s"
+        android:title="@string/steam"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/element"
+        android:icon="@drawable/ptable2"
+        android:title="@string/elements"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
