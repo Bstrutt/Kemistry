@@ -10,6 +10,9 @@
     <string name="element">Elements</string>
     <string name="mass_density">Mass and Density</string>
     <string name="volume">Volume</string>
+    <string name="kg_lb">1 kg = 2.2046 lb</string>
+    <string name="gcm3_lbft3">1 g/cm^3 = 62.428 lb/ft^3</string>
+    <string name="lb_kgm3">1 lb/ft^3 = 16.018 kg/m^3</string>
 
 
 </resources>

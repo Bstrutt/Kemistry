@@ -25,6 +25,18 @@ public class ConversionFragment extends Fragment{
                 fr.commit();
             }
         });
+
+        Button volume = (Button) view.findViewById(R.id.volume);
+
+        volume.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick (View v) {
+                FragmentTransaction fr=getFragmentManager().beginTransaction();
+                fr.replace(R.id.fragment_container,new Volume());
+                fr.commit();
+            }
+        });
+
         return view;
     }
 }
