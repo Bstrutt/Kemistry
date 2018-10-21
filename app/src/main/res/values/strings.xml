@@ -16,6 +16,8 @@
     <string name="bromine">Bromine</string>
     <string name="phosphorus">Phosphorus</string>
     <string name="button">Button</string>
+    <string name="mass_density">Mass and Density</string>
+    <string name="volume">Volume</string>
 
 
 </resources>
