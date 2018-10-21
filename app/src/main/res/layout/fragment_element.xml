@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
 
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
 
@@ -15,132 +15,140 @@
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:orientation="vertical">
 
             <Button
                 android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:onClick="carbon"
+                android:text="@string/carbon" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:onClick="hydrogen"
+                android:text="@string/hydrogen" />
 
             <Button
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:onClick="oxygen"
+                android:text="@string/oxygen" />
 
             <Button
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:onClick="nitrogen"
+                android:text="@string/nitrogen" />
 
             <Button
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:onClick="sulfur"
+                android:text="@string/sulfur" />
 
             <Button
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:onClick="bromine"
+                android:text="@string/bromine" />
 
             <Button
                 android:id="@+id/button7"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:onClick="phosphorus"
+                android:text="@string/phosphorus" />
 
             <Button
                 android:id="@+id/button8"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button9"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button10"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button11"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button12"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button13"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button14"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button16"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button19"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
             <Button
                 android:id="@+id/button20"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button" />
 
         </LinearLayout>
     </ScrollView>

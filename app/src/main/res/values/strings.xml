@@ -8,6 +8,14 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="element">Elements</string>
+    <string name="carbon">Carbon</string>
+    <string name="hydrogen">Hydrogen</string>
+    <string name="oxygen">Oxygen</string>
+    <string name="nitrogen">Nitrogen</string>
+    <string name="sulfur">Sulfur</string>
+    <string name="bromine">Bromine</string>
+    <string name="phosphorus">Phosphorus</string>
+    <string name="button">Button</string>
 
 
 </resources>
