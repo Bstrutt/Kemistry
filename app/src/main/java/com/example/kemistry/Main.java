@@ -10,6 +10,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 
+
+
+
 public class Main extends AppCompatActivity {
 
     @Override
@@ -21,24 +24,27 @@ public class Main extends AppCompatActivity {
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, new ConversionFragment()).commit();
     }
 
-            private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
-                @Override
-                public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-                    Fragment selectedFragment = null;
+    private BottomNavigationView.OnNavigationItemSelectedListener navListener = new BottomNavigationView.OnNavigationItemSelectedListener() {
+        @Override
+        public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+            Fragment selectedFragment = null;
 
-                    switch (item.getItemId()) {
-                        case R.id.conversion:
-                            selectedFragment = new ConversionFragment();
-                            break;
-                        case R.id.steam:
-                            selectedFragment = new SteamFragment();
-                            break;
-                        case R.id.element:
-                            selectedFragment = new ElementFragment();
-                            break;
-                    }
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
+            switch (item.getItemId()) {
+                case R.id.conversion:
+                    selectedFragment = new ConversionFragment();
+                    break;
+                case R.id.steam:
+                    selectedFragment = new SteamFragment();
+                    break;
+                case R.id.element:
+                    selectedFragment = new ElementFragment();
+                    break;
+            }
+            getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment).commit();
 
-                    return true;
-                }
-            };}
+            return true;
+        }
+    };
+
+
+}
